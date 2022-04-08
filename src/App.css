@@ -36,3 +36,47 @@
     transform: rotate(360deg);
   }
 }
+
+.highScores-Main {
+  display: flex;
+  flex-direction: column;
+  border: rgb(139, 86, 16) 2px solid;
+
+  align-items: center;
+  margin: 3rem auto;
+
+  width: 60%;
+}
+
+.highScores-Main p {
+  font-size: 40px;
+  color: rgb(141, 97, 3);
+}
+
+.HighScores-Country p {
+  font-size: 30px;
+  color: rgb(139, 86, 16);
+}
+
+.HighScores-Country {
+  border: 3px solid burlywood;
+  width: 50%;
+  margin: 1rem;
+}
+
+.Scores-Tables {
+  border: 1px solid burlywood;
+  width: 80%;
+  align-items: center;
+  text-align: center;
+  margin-left: 2.5rem;
+  margin-bottom: 1rem;
+  border-collapse: collapse;
+}
+.Scores-Tables tr {
+  border: 1px solid;
+}
+
+.score {
+  color: red;
+}
